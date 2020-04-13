@@ -1,0 +1,40 @@
+/* You can write your codes here  */
+
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+    margin: 10px !important;
+}
+
+.card {
+    width: 100%;
+    margin-top: 50px;
+    border: 5px solid #6c6060 !important;
+    text-align: center !important;
+    background-color: #cfc4c4 !important;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.card-text {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#card_mark {
+    color: black;
+}
+
+#card_name {
+    color: darkred;
+}
+
+#card_std {
+    color: darkslateblue;
+}
+
+#card_roll {
+    color: mediumseagreen;
+}
