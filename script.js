@@ -1,6 +1,9 @@
 // You can add your codes here
+document.getElementById('card_main').style.display = "none";
 
 function generate_card() {
+
+    document.getElementById('card_main').style.display = "block";
     var name = document.getElementById('name').value;
     var std = document.getElementById('class').value;
     var mark1 = parseInt(document.getElementById('mark1').value);

@@ -38,3 +38,18 @@ body {
 #card_roll {
     color: mediumseagreen;
 }
+
+.form {
+    background-color: bisque;
+    width: 45% !important;
+    padding: 20px;
+}
+
+.form-control {
+    width: 99% !important;
+}
+
+.btn_generate {
+    height: 50px;
+    width: 150px;
+}

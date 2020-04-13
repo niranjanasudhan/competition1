@@ -7,6 +7,7 @@
     <title>Progress Card Generator</title>
     <link rel="stylesheet" href="/styleSolutions.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -15,23 +16,23 @@
 </head>
 
 <body>
-    <div>
+    <div class="container form">
         <!--You dont have to provide style in this div-->
         <form>
             <label for="Name">Enter Student Name</label><br>
-            <input type="text" id="name"><br>
+            <input class="form-control" type="text" id="name"><br>
             <label for="">Enter Class</label><br>
-            <input type="text" id="class"><br>
+            <input class="form-control" type="text" id="class"><br>
             <label for="">Enter roll number</label><br>
-            <input type="text" id="rollNo"><br>
+            <input class="form-control" type="text" id="rollNo"><br>
             <label for="">Mark obtained in subject-1</label><br>
-            <input type="number" id="mark1">/100<br>
+            <input class="form-control" type="number" id="mark1">/100<br>
             <label for="">Mark obtained in subject-2</label><br>
-            <input type="number" id="mark2">/100<br>
+            <input class="form-control" type="number" id="mark2">/100<br>
             <label for="">Mark obtained in subject-3</label><br>
-            <input type="number" id="mark3">/100<br>
+            <input class="form-control" type="number" id="mark3">/100<br>
             <p>Click the button below to create Percentage Card</p>
-            <button type="button" onclick="generate_card()">Generate Card</button>
+            <button class="btn btn-dark btn_generate" type="button" onclick="generate_card()">Generate Card</button>
         </form>
         <!--Use the data from above input fileds to generate a card -->
     </div>
